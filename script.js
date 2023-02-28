@@ -41,7 +41,7 @@ var yourScore = document.querySelector(".display-3");
 var submitButton = document.getElementById("buttonInitials");
 var inputLine = document.getElementById("inlineFormInput");
 
-var secondsLeft = 50;
+var secondsLeft = 60;
 function setTime() {
     var timerInterval = setInterval(function() {
       secondsLeft--;
@@ -139,7 +139,7 @@ for (var i = 0; i < quizBtn.length; i++) {
 });
 }
 
-// High Scores 
+// High Score
 
 var highscores = JSON.parse(localStorage.getItem("highscores")) || [];
 

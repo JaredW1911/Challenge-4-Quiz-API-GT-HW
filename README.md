@@ -1,15 +1,17 @@
 # Module-4
 
-Random Quiz of Useless Information
-04 Web APIs: Code Quiz
+The Sports and Car Quiz
+Web APIs: Code Quiz
 
 ## Description
 
-    This is a 5 question quiz based on the magazine "Random Quiz of Useless Information". 
-    When you click Start Quiz, you will have 50 seconds to answer all the questions.
-    For each correct answer you win 5 seconds.
-    For each incorrect answer you loose 5 seconds.
-    At the end of the quiz enter your initials to the high scores list.
+    This quiz of five questions about car and sport history "The Sports and Car Quiz". 
+    Once you click Start Quiz, you will have 60 seconds to answer all the questions.
+    You'll gain 5 seconds for submitting the right answer.
+    You'll lose 5 seconds for submitting the wrong answer.
+    Once the quiz if finished enter your initals for the High Score.
+    The highest scor attainable in 60 points.
+    May the code be with you.
 
 ## Date
 
