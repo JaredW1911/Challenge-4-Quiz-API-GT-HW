@@ -11,12 +11,12 @@ background-color: black;
 }
 
 .col-3 {
-    color: #FFF200;
+    color: #cf2836;
     text-align: center;
 }
 
 #highScore {
-    color: #FFF200;
+    color: #cf2836;
 }
 
 .display-3 {
@@ -29,7 +29,7 @@ background-color: black;
 }
 
 .jumbotron {
-    background-color: #64A966;
+    background-color: #000000;
     height: 270px;
 }
 
@@ -39,7 +39,7 @@ background-color: black;
 }
 
 .card {
-    background-color: #64A966;
+    background-color: #0e5f30;
 }
 
 img {
