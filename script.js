@@ -35,7 +35,7 @@ var yourScore = document.querySelector(".display-3");
 var submitButton = document.getElementById("buttonInitials");
 var inputLine = document.getElementById("inlineFormInput");
 
-var secondsLeft = 60;
+var secondsLeft = 30;
 function setTime() {
     var timerInterval = setInterval(function() {
       secondsLeft--;
