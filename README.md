@@ -11,6 +11,9 @@ The Sports and Car Quiz
     Once the quiz if finished enter your initals for the High Score.
     The highest score you can get is 60 points.
 
+## Screenshot
+image.png 
+
 ## Date
 
   05 February 2023
