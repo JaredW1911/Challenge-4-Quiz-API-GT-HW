@@ -1,122 +1,121 @@
 body {
-background-color: black;
-}
-
-#row1 {
-    padding: 10px;
-}
-
-#row2 {
-    justify-content: center;
-}
-
-.col-3 {
-    color: #cf2836;
-    text-align: center;
-}
-
-#highScore {
-    color: #cf2836;
-}
-
-.display-3 {
-    text-align: center;
-    margin-top: -50px;
-}
-
-.lead {
-    text-align: center;
-}
-
-.jumbotron {
-    background-color: #000000;
-    height: 270px;
-}
-
-.buttonRow {
-    justify-content: center;
-    padding: 5px;
-}
-
-.card {
-    background-color: #0e5f30;
-}
-
-img {
-    width: 450px;
-}
-
-.col-4 {
-    text-align: -webkit-center;
-}
-
-#questionsCard {
-    display: none;
-}
-
-#correctIncorrect {
-    font-size: xx-large;
-}
-
-#buttonInitials {
-    display: none;
-}
-
-#inlineFormInput {
-    display: none;
-    width: 30%;
-}
-
-/* highScores HTML */
-
-#highRow {
-    padding: 10px;
-}
-
-#theTottaly {
-    color: #FFF200;
-}
-
-#header {
-    font-size: 4.5rem;
-    font-weight: 300;
-    line-height: 1.2;
-}
-
-#imageHigh {
-    justify-content: center;
-    padding: 30px;
-}
-
-/* Media query */
-
-@media (max-width: 1148px){
-    #imageMedia {
-        display: none;
+    background-color: rgb(100, 100, 100);
     }
-}
-
-@media (max-width: 1206px){
-    #imagenDisplay {
-        display: none;
+    
+    #row1 {
+        padding: 10px;
     }
-
-}
-
-@media (max-width: 830px) {
+    
+    #row2 {
+        justify-content: center;
+    }
+    
+    .col-3 {
+        color: #eeeeee;
+        text-align: center;
+    }
+    
+    #highScore {
+        color: #fdfdfd;
+    }
+    
     .display-3 {
-        font-size: 350%;
-        margin-top: 1px;
+        text-align: center;
+        margin-top: 50px;
     }
+    
+    .lead {
+        text-align: center;
+    }
+    
     .jumbotron {
-        height: 100%;
+        background-color: #9b0808;
+        height: 280px;
     }
-    #imagen1 {
-        float: right;
+    
+    .buttonRow {
+        justify-content: center;
+        padding: 5px;
     }
-    #cardMedia {
-        float: right;
+    
+    .card {
+        background-color: #000000;
     }
-}
-
-
+    
+    img {
+        width: 500px;
+    }
+    
+    .col-4 {
+        text-align: -webkit-center;
+    }
+    
+    #questionsCard {
+        display: none;
+    }
+    
+    #correctIncorrect {
+        font-size: xx-large;
+    }
+    
+    #buttonInitials {
+        display: none;
+    }
+    
+    #inlineFormInput {
+        display: none;
+        width: 30%;
+    }
+    
+    
+    #highRow {
+        padding: 10px;
+    }
+    
+    #theTottaly {
+        color: #FFF200;
+    }
+    
+    #header {
+        font-size: 4.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+    
+    #imageHigh {
+        justify-content: center;
+        padding: 30px;
+    }
+    
+    
+    @media (max-width: 1148px){
+        #imageMedia {
+            display: none;
+        }
+    }
+    
+    @media (max-width: 1206px){
+        #imagenDisplay {
+            display: none;
+        }
+    
+    }
+    
+    @media (max-width: 830px) {
+        .display-3 {
+            font-size: 350%;
+            margin-top: 1px;
+        }
+        .jumbotron {
+            height: 100%;
+        }
+        #imagen1 {
+            float: right;
+        }
+        #cardMedia {
+            float: right;
+        }
+    }
+    
+    
+    

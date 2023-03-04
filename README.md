@@ -1,17 +1,15 @@
 # Module-4
 
 The Sports and Car Quiz
-Web APIs: Code Quiz
 
 ## Description
 
-    This quiz of five questions about car and sport history "The Sports and Car Quiz". 
-    Once you click Start Quiz, you will have 60 seconds to answer all the questions.
-    You'll gain 5 seconds for submitting the right answer.
-    You'll lose 5 seconds for submitting the wrong answer.
+    This five question quiz is about car and sports history. 
+    Once Start Quiz is selected, 60 seconds is the allotted time to answer the questions.
+    5 seconds will be added when the correct answer is selected.
+    5 seconds will be removed when the correct answer is selected.
     Once the quiz if finished enter your initals for the High Score.
-    The highest scor attainable in 60 points.
-    May the code be with you.
+    The highest score you can get is 60 points.
 
 ## Date
 

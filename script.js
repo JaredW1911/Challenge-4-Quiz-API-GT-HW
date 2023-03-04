@@ -1,38 +1,32 @@
-var questions = [{
-  question: "Which player won 6 NBA championships in the 90's?",
-  answer1: "Bill Gates",
-  answer2: "Magic Johnson",
-  answer3: "George Bush",
-  answer4: "Michael Jordan",
-  correct: "Michael Jordan"
-},{
-  question: "What car was named Elanor in the movie Gone in 60 Seconds?",
-  answer1: "1903 Ford Model T",
-  answer2: "1987 Chevy Monte Carlo",
-  answer3: "1967 Ford Mustang Fast Back",
-  answer4: "1996 Toyota Camry",
-  correct: "1967 Ford Mustang Fast Back"
-},{
-  question: "What player was called Prime Time?",
-  answer1: "Fred McGriff",
-  answer2: "Deion Sanders",
-  answer3: "Joe Namath",
-  answer4: "Lionel Messi",
-  correct: "Deion Sanders"
-},{
-  question: "What car brand did Elon Musk make?",
-  answer1: "Ferrari",
-  answer2: "Tesla",
-  answer3: "Lexus",
-  answer4: "Bugatti",
-  correct: "Tesla"
-},{
-  question: "What college did Tom Brady attend?",
-  answer1: "North Carolina",
-  answer2: "USC",
-  answer3: "Michigan",
-  answer4: "Ohio State",
-  correct: "Michigan"
+var quizquestions = [
+  {
+    question: "Which player won 6 NBA championships in the 90's?",
+    answers: ["Bill Gates", "Magic Johnson", "Andre Agassi", "Michael Jordan"],
+    correctAnswer: "Michael Jordan"
+  },
+
+  {
+    question: "What car was named Elanor in the movie Gone in 60 Seconds?",
+    answer1: ["1903 Ford Model T","1987 Chevy Monte Carlo", "1967 Ford Mustang Fast Back","1996 Toyota Camry"],
+    correct: "1967 Ford Mustang Fast Back"
+  },
+  
+  {
+    question: "What player was called Prime Time?",
+    answers: ["Fred McGriff", "Deion Sanders", "Joe Namath", "Lionel Messi"],
+    correctAnswer: "Deion Sanders"
+  },
+  
+  {
+    question: "What car brand did Elon Musk make?",
+    answers: ["Ferrari", "Tesla", "Lexus", "Bugatti"],
+    correctAnswer: "Tesla"
+  },
+  
+  {
+    question: "What college did Tom Brady attend?",
+    answers: ["North Carolina", "USC", "Michigan", "Ohio State"],
+    correctAnswer: "Michigan"
 }];
 
 // Timer
@@ -136,30 +130,6 @@ for (var i = 0; i < quizBtn.length; i++) {
   if (runningQuestion < 5) {
     firstQuestion();
   }
-});
-}
-
-// High Score
-
-var highscores = JSON.parse(localStorage.getItem("highscores")) || [];
-
-submitButton.addEventListener("click", function(event){
-  event.stopPropagation();
-  console.log("click");
-  
-  var initials = inputLine.value;
-  var finalScore = {initials, secondsLeft};
-  console.log("Final Score: " + finalScore);
-  console.log(initials + " your score is: " + secondsLeft); 
-
-
-
-
-  // Move to localStorage
-
-  highscores.push(finalScore);
-  localStorage.setItem("highscores", JSON.stringify(highscores));
-
 });
 
 
